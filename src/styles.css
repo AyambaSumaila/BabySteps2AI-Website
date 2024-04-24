@@ -1,0 +1,29 @@
+#hero {
+    background-size: cover;
+    background-attachment: fixed;
+    transition: background-position 0.3s ease-in-out;
+}
+.hero {
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    transition: background-position 0.3s ease-in-out;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button {
+    background-color: #fff;
+    color: #3b82f6;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3b82f6;
+    color: #fff;
+}
